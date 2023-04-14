@@ -8,7 +8,7 @@ class Tart < Formula
   version "0.38.0"
   license "AGPL-3.0"
 
-  depends_on "cirruslabs/cli/softnet"
+  depends_on "appcircleio/cli/softnet"
   depends_on :macos
 
   on_macos do
