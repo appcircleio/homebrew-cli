@@ -13,7 +13,7 @@ class Tart < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cirruslabs/tart/releases/download/0.38.0/tart.tar.gz"
+      url "https://cdn.appcircle.io/self-hosted/runner/tart/0.38.0/tart.tar.gz"
       sha256 "0870ca88e53c92f61372288af4a4caaac40cc23358fd82006e9ab9f63b3eac0a"
 
       def install

@@ -10,7 +10,7 @@ class Softnet < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cirruslabs/softnet/releases/download/0.6.2/softnet.tar.gz"
+      url "https://cdn.appcircle.io/self-hosted/runner/softnet/0.6.2/softnet.tar.gz"
       sha256 "6f17e589e4a48157bc6020bdebae8e166cee88b48964799e9e4f06677d7a32e7"
 
       def install
